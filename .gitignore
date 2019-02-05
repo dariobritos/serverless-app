@@ -1,0 +1,6 @@
+/.idea/
+/serverless-app-cloud/target/
+/serverless-app-common/target/
+/serverless-app-repository/target/
+/serverless-app-service/target/
+*.iml
