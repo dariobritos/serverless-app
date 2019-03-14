@@ -1,6 +1,10 @@
 package com.starkgarage.serverlessapp.common.gateway;
 
-import lombok.*;
+import lombok.AllArgsConstructor;
+import lombok.Builder;
+import lombok.Getter;
+import lombok.NoArgsConstructor;
+import lombok.Setter;
 
 @Getter
 @Setter
@@ -8,8 +12,8 @@ import lombok.*;
 @NoArgsConstructor
 @AllArgsConstructor
 public class GatewayRequestAuthorizer {
-    private String userId;
-    private String principalId;
-    private String roles;
-    private String delegators;
+  private String userId;
+  private String principalId;
+  private String roles;
+  private String delegators;
 }

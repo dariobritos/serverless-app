@@ -1,6 +1,5 @@
 package com.starkgarage.serverlessapp.common.gateway;
 
-
 import lombok.Builder;
 import lombok.Getter;
 import lombok.Setter;
@@ -9,6 +8,6 @@ import lombok.Setter;
 @Getter
 @Setter
 public class ErrorResponse {
-    private String errorCode;
-    private String errorMessage;
+  private String errorCode;
+  private String errorMessage;
 }
